@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Water+Brush&display=swap');
+
+:root {
+    --primary-color: #8D6D53;
+    --secondary-color: #3D3DB8;
+    --accent1-color: #BBA18B;
+    --accent2-color: #F26D40;
+    --heading-font: "Water Brush";
+    --text-font: "Advent Pro";
+}
+
+h1, h2 {
+    font-family: var(--text-font);
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+}
+
+.hero article { 
+    position: absolute;
+}
+
+.hero article img {
+    float: right;
+    width: 200px;
+    height: auto;
+}
+
+
