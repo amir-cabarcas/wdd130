@@ -1,15 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&display=swap');
 
 :root {
     --primary-color: #8D6D53;
     --secondary-color: #3D3DB8;
     --accent1-color: #BBA18B;
     --accent2-color: #F26D40;
-    --heading-font: "Water Brush";
+    --heading-font: "Bebas Neue";
     --text-font: "Advent Pro";
 }
 
 h1, h2 {
+    font-family: var(--heading-font);
+}
+
+p {
     font-family: var(--text-font);
 }
 
@@ -17,24 +21,44 @@ a {
     text-decoration: none;
 }
 
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
 .hero img {
-    display: block;
     width: 100%;
     height: auto;
 }
 
 .hero h1 {
+    
+    color: rgb(255, 255, 255, 1);
+    background-color: #666666;
     position: absolute;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    opacity: 80%;
+    
 }
 
 .hero article { 
+    color: white;
     position: absolute;
+    top: 50%;
+    background-color: #3D3DB8;
+    opacity: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 1%;
 }
 
 .hero article img {
     float: right;
     width: 200px;
     height: auto;
+    margin: 1%;
+    opacity: 1 !important;
 }
-
-
