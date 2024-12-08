@@ -160,11 +160,80 @@ footer {
 }
 
 footer p {
+    margin-top: 15%;
     align-items: center;
-    border: 1px solid black;
 }
 
 .socialmedia nav {
     align-items: right;
     justify-content: space-between;
 }
+
+.contact {
+    border: 1px solid black;
+}
+
+.contact h1, h2, p{
+    text-align: center;
+}
+
+.map {
+    text-align: center;
+}
+
+.employees {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px 1fr;
+    gap: 50px;
+    margin-bottom: 2%;
+}
+
+.employees h1{
+    font-size: larger;
+    text-align: center;
+    grid-column: 2/3;
+}
+
+.Employee1 {
+    text-align: center;
+    grid-column: 1/2;
+
+}
+
+.Employee2 {
+    text-align: center;
+    grid-column: 2/2;
+}
+
+.Employee3 {
+    text-align: center;
+    grid-column: 3/4;
+}
+
+.form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: var(--accent1-color);
+    display: grid;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.button-cont {
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 7px;
+    margin-top: 1%;
+}
+
+.foot-cont {
+    margin-top: 1%;
+}
+
+/* URL Layout of Contact Us: https://www.canva.com/design/DAGYpeOVKuQ/-XyzG3Vgly3z1s643iQEDA/edit?utm_content=DAGYpeOVKuQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton */
